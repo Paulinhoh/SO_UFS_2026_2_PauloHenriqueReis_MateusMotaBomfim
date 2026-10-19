@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.env
+*.gguf
+*.safetensors
+*.bin
+# Índices regeneráveis (o corpus sintético em dados/*.jsonl FICA versionado)
+dados/indices/
+dados/tmp/
