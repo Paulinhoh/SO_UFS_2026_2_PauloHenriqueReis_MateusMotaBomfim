@@ -1,0 +1,29 @@
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda           8:0    0 476,9G  0 disk 
+├─sda1        8:1    0   100M  0 part 
+├─sda2        8:2    0    16M  0 part 
+├─sda3        8:3    0 475,9G  0 part 
+└─sda4        8:4    0   984M  0 part 
+zram0       251:0    0     8G  0 disk [SWAP]
+nvme0n1     259:0    0 238,5G  0 disk 
+├─nvme0n1p1 259:1    0   160M  0 part /boot/efi
+├─nvme0n1p2 259:2    0   1,1G  0 part /boot
+└─nvme0n1p3 259:3    0 237,2G  0 part /home
+                                      /
+
+Sist. Arq.      Tam. Usado Disp. Uso% Montado em
+/dev/nvme0n1p3  238G  188G   48G  80% /
+devtmpfs        5,5G     0  5,5G   0% /dev
+tmpfs           5,6G   96K  5,6G   1% /dev/shm
+efivarfs        178K   61K  113K  36% /sys/firmware/efi/efivars
+tmpfs           2,3G  2,0M  2,3G   1% /run
+none            1,0M     0  1,0M   0% /run/credentials/systemd-journald.service
+none            1,0M     0  1,0M   0% /run/credentials/systemd-resolved.service
+tmpfs           5,6G  2,5M  5,6G   1% /tmp
+/dev/nvme0n1p3  238G  188G   48G  80% /home
+/dev/nvme0n1p2  1,1G  504M  474M  52% /boot
+/dev/nvme0n1p1  160M   21M  140M  13% /boot/efi
+tmpfs           1,2G  136K  1,2G   1% /run/user/1000
+
+TARGET SOURCE                FSTYPE OPTIONS
+/home  /dev/nvme0n1p3[/home] btrfs  rw,relatime,seclabel,compress=zstd:1,ssd,discard=async,space_cache=v2,subvolid=257,subvol=/home

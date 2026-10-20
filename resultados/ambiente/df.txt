@@ -1,0 +1,13 @@
+Sist. Arq.      Tam. Usado Disp. Uso% Montado em
+/dev/nvme0n1p3  238G  188G   48G  80% /
+devtmpfs        5,5G     0  5,5G   0% /dev
+tmpfs           5,6G  100K  5,6G   1% /dev/shm
+efivarfs        178K   61K  113K  36% /sys/firmware/efi/efivars
+tmpfs           2,3G  2,0M  2,3G   1% /run
+none            1,0M     0  1,0M   0% /run/credentials/systemd-journald.service
+none            1,0M     0  1,0M   0% /run/credentials/systemd-resolved.service
+tmpfs           5,6G  2,5M  5,6G   1% /tmp
+/dev/nvme0n1p3  238G  188G   48G  80% /home
+/dev/nvme0n1p2  1,1G  504M  474M  52% /boot
+/dev/nvme0n1p1  160M   21M  140M  13% /boot/efi
+tmpfs           1,2G  136K  1,2G   1% /run/user/1000

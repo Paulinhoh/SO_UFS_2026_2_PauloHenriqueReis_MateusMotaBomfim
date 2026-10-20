@@ -1,0 +1,5 @@
+metrica,sem_protecao,com_lock
+cache sem lock — contagens perdidas,770.6666666666666,0
+cache — tamanho máximo (capacidade 10),15,10
+contador — atualizações perdidas,445.6666666666667,0
+log — linhas corrompidas,461.6666666666667,0
